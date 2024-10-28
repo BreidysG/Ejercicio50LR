@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    background-image: url(2.png);
+    background-size: cover;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.container-input-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-input-button button {
+    width: 100px;
+    margin-top: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#timer {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.triangle-container {
+    position: relative;
+    width: 80%; /* Ajusta según el diseño */
+    margin: 0 auto;
+}
+
+.triangle {
+    text-align: center;
+}
+#textSlot, #textSlot2, #textSlot3{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.line {
+    font-size: 14px; /* Ajusta el tamaño de fuente según lo desees */
+    margin: 5px 0; /* Aumenta el espaciado entre líneas */
+    padding: 5px; /* Espacio para que el fondo se vea mejor */
+    position: relative; /* Para permitir la posición del pseudo-elemento */
+}
+
+
+.active-line {
+    width:fit-content;
+    align-self: center;
+    background-color: rgba(0, 0, 255, 0.3); /* Color azul con transparencia */
+    
+}
+
+
+.center-line {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 2px; /* Ancho de la línea vertical */
+    height: 33%; /* Altura completa del contenedor */
+    background-color: black; /* Color de la línea vertical */
+    transform: translateX(-50%); /* Centrar la línea */
+}
+.center-line2 {
+    position: absolute;
+    left: 40%;
+    top: 145;
+    width: 2px; /* Ancho de la línea vertical */
+    height: 33%; /* Altura completa del contenedor */
+    background-color: black; /* Color de la línea vertical */
+    transform: translateX(-50%); /* Centrar la línea */
+}
+.center-line3 {
+    position: absolute;
+    left: 60%;
+    top: 145;
+    width: 2px; /* Ancho de la línea vertical */
+    height: 33%; /* Altura completa del contenedor */
+    background-color: black; /* Color de la línea vertical */
+    transform: translateX(-50%); /* Centrar la línea */
+}
+.center-line4 {
+    position: absolute;
+    left: 30%;
+    top: 145;
+    width: 2px; /* Ancho de la línea vertical */
+    height: 33%; /* Altura completa del contenedor */
+    background-color: black; /* Color de la línea vertical */
+    transform: translateX(-50%); /* Centrar la línea */
+}
+.center-line5 {
+    position: absolute;
+    left: 50%;
+    top: 145;
+    width: 2px; /* Ancho de la línea vertical */
+    height: 33%; /* Altura completa del contenedor */
+    background-color: black; /* Color de la línea vertical */
+    transform: translateX(-50%); /* Centrar la línea */
+}
+.center-line6 {
+    position: absolute;
+    left: 70%;
+    top: 145;
+    width: 2px; /* Ancho de la línea vertical */
+    height: 33%; /* Altura completa del contenedor */
+    background-color: black; /* Color de la línea vertical */
+    transform: translateX(-50%); /* Centrar la línea */
+}
+
