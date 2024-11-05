@@ -147,3 +147,72 @@ button:hover {
     transform: translateX(-50%); /* Centrar la línea */
 }
 
+/* Media queries para hacer que el diseño sea responsive */
+
+/* Para tablets y pantallas medianas */
+@media (max-width: 768px) {
+    .container {
+        max-width: 90%;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    #timer {
+        font-size: 20px;
+    }
+
+    .triangle-container {
+        width: 90%;
+    }
+
+    .line {
+        font-size: 12px;
+        margin: 4px 0;
+    }
+}
+
+/* Para dispositivos móviles */
+@media (max-width: 480px) {
+    .container {
+        max-width: 95%;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    button {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+
+    #timer {
+        font-size: 18px;
+    }
+
+    .triangle-container {
+        width: 100%;
+    }
+
+    .line {
+        font-size: 10px;
+        margin: 3px 0;
+    }
+}
